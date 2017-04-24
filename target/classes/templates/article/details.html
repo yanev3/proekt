@@ -11,6 +11,8 @@
 
                     <small class="author" th:text="${article.author.fullName}"></small>
 
+
+
                     <footer>
 
                         <div class="pull-right">
@@ -19,8 +21,26 @@
                             <a class="btn btn-danger btn-xs" th:href="@{/article/delete/{id}(id = ${article.id})}">Delete</a>
                             </th:block>
 
+                            <form method='post'>
+                                NAME: <input type='text' name='name' id='name' /><br />
+
+                                Email: <input type='text' name='email' id='email' /><br />
+
+                                Comment:<br />
+                                <textarea name='comment' id='comment'></textarea><br />
+
+
+
+                                <input type='submit' value='Submit' />
+
+
+                            </form>
                             <a class="btn btn-default btn-xs" th:href="@{/}">back &raquo;</a>
+
+
+
                         </div>
+
                     </footer>
                 </article>
             </div>
