@@ -5,5 +5,6 @@ import softuniBlog.entity.Comment;
 
 
 public interface CommentRepository extends JpaRepository<Comment, Integer> {
+
 }
 
