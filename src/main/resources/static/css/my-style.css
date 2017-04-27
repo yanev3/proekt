@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+
+.navbar,
+.navbar-default,
+.navbar-static-top{
+    background-color: #2077b2;
+}
+h2{
+    text-align: center;
+}
+.well{
+    border: 2px solid white;
+}
+.text-black{
+    color: black;
+}
+.right{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+    font-style: italic;
+}
